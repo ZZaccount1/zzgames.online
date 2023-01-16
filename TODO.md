@@ -1,3 +1,5 @@
+- [ ] Before making this repo public clear commit history
+
 - [x] License
 
 - [ ] CSS, make everything dark
