@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<section id="list">
+
+    {{ $baseurl := .Site.BaseURL }}
+
+    <h2>{{ .Title }}</h2>
+
+    {{ .Content }}
+
+    <div class="flex-container">
+        {{ range .Pages }}
+        <div class="shade-box" style="min-width: 200px; flex: 0 1 200px;">
+            <p><a href="{{ .Permalink }}">#{{ .Title | markdownify }}</a></p>
+            {{ if .Params.description }}
+                <p>{{ .Params.description }}</p>
+            {{ else if isset .Site.Params.tags .Title }}
+                <p>{{ index .Site.Params.tags .Title | markdownify }}</p>
+            {{ end }}
+        </div>
+        {{ end }}
+    </div>
+
+</section>
+
+{{ end }}

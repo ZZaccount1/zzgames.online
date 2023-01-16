@@ -1,0 +1,126 @@
+baseURL: https://zzaccount1.github.io
+sourceURL: https://github.com/zzaccount1/blog2
+languageCode: en-GB
+title: ZZ's blog
+publishDir: public
+permalinks:
+  posts: /posts/:year/:month/:day/:slug
+
+uglyurls: true
+pygmentsUseClasses: true
+
+markup:
+  enableEmoji: true
+  goldmark:
+    extensions:
+      linkify: true
+      typographer: false
+    renderer:
+      unsafe: true
+  highlight:
+    style: emacs
+  tableOfContents:
+    endLevel: 6
+    startLevel: 2
+
+outputs:
+  taxonomy: ["HTML"]
+  taxonomyTerm: ["HTML"]
+  page: ["HTML"]
+  home: ["HTML"]
+
+outputFormats:
+  RSS:
+    mediatype: application/rss
+    baseName: feed
+
+taxonomies:
+  tag: tags
+  series: series
+
+menu:
+  main:
+  - identifier: Home
+    name: Home
+    url: "/"
+    weight: 1
+  - identifier: Blog
+    name: Blog
+    url: "/posts/"
+    weight: 2
+  - identifier: Tags
+    name: Tags
+    url: "/tags.html"
+    weight: 3
+  - identifier: TIL
+    name: TIL
+    url: "/til/"
+    weight: 4
+  - identifier: Pages
+    name: Other pages
+    url: "/pages.html"
+    weight: 5
+
+
+params:
+  discord: y3vd2vAYru
+  discord_user: ZZ#6146
+  github: zzaccount1
+  tags:
+    c++: Posts and notes about the C++ language. This description pretty much only exists so I can test whether or not my config.yaml-based system for descriptions work :)
+    hacktoberfest: Posts about [Hacktoberfest](https://hacktoberfest.digitalocean.com/), a yearly event centered around contributing to open-source.
+  projects:
+    - name: Autofuncs
+      state: ad
+      license: MIT
+      link: https://github.com/LunarWatcher/Taskranger
+      description:
+        A small [Lua](https://lua.org/about.html) module for [Love2D](https://love2d.org) that calls functions like [love.load](https://love2d.org/wiki/love.load), [love.update](https://love2d.org/wiki/love.update), [love.draw](https://love2d.org/wiki/love.draw) etc. that are outside main.lua, without needing to require and call the functions by hand for each script.
+      languages:
+        - Lua
+    - name: ZEngine
+      state: projupc
+      license: MIT
+      link: https://github.com/LunarWatcher/Taskranger
+      description:
+        ToDo - Write the description
+      languages:
+        - C++
+        - Lua
+        - SDL
+        - ImGui
+        - Premake
+  projectstate:
+    # vvvv commitment right here
+    ad:
+      name: Active
+      span: projact
+      desc: Projects in active development
+    sp:
+      name: Side-project
+      span: projside
+      desc: Side-projects that are in active development, but that aren't in as active development as main projects.
+    ma:
+      name: Maintained
+      span: projmain
+      desc: Projects that are being maintained, but that aren't under active development. Primarily applies the projects where ideas have dried up.
+    in:
+      name: Inactive
+      span: projin
+      desc: Projects that are currently not receiving any attention.
+    po:
+      name: Patches only
+      span: projpat
+      desc: Projects only receiving patches.
+    ab:
+      name: Abandoned
+      span: projaban
+      desc: Projects that have been abandoned intentionally
+    de:
+      name: Dead
+      span: projdead
+      desc: Projects that have been abandoned due to circumstance, including (but not limited to) loss of interest, loss of need, or my focus being pulled elsewhere.
+    upc:
+      name: Upcoming
+      span: projupc
+      desc: Upcoming projects; stay tuned!

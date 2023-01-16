@@ -1,0 +1,17 @@
+<header>
+    <nav class="nav-container">
+        <div class="container">
+            <h1 class="logo left"><a href="/">ZZ</a></h1>
+            <div id="sidenav" class="sidenav">
+                <a href="javascript:void(0)" class="close" onclick="closeSidenav()">&times;</a>
+                {{ partial "nav.html" . }}
+            </div>
+            <div class="topnav right">
+                {{ partial "nav.html" . }}
+            </div>
+            <span class="sidenav-trigger" onclick="openSidenav()">&#9776;</span>
+        </div>
+    </nav>
+</header>
+
+
