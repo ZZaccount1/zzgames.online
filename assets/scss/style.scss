@@ -107,17 +107,12 @@ a:hover {
 
 // WHY?!
 ul {
-    list-style: none;
+    //list-style: none;
     margin-left: 0;
-    padding-left: 0;
+    padding-left: 15px;
     li {
         padding-left: 1em;
         text-indent: -1em;
-    }
-
-    li:before {
-        content: "♡";
-        padding-right: 5px;
     }
 }
 
