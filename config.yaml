@@ -73,15 +73,25 @@ params:
     - name: Autofuncs
       state: ad
       license: MIT
-      link: https://github.com/LunarWatcher/Taskranger
+      link: https://github.com/zzaccount1/love-autofuncs
       description:
         A small [Lua](https://lua.org/about.html) module for [Love2D](https://love2d.org) that calls functions like [love.load](https://love2d.org/wiki/love.load), [love.update](https://love2d.org/wiki/love.update), [love.draw](https://love2d.org/wiki/love.draw) etc. that are outside main.lua, without needing to require and call the functions by hand for each script.
       languages:
         - Lua
-    - name: ZEngine
-      state: projupc
+    - name: Zalc
+      state: ad
       license: MIT
-      link: https://github.com/LunarWatcher/Taskranger
+      link: https://github.com/zzaccount1/zalc
+      description:
+        Basic calculator made with qt in c++
+      languages:
+        - C++
+        - Qt
+        - CMake
+    - name: ZEngine
+      state: upc
+      license: MIT
+      link: https://github.com/zzaccount1/zengine
       description:
         ToDo - Write the description
       languages:
