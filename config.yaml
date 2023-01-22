@@ -88,6 +88,16 @@ params:
         - C++
         - Qt
         - CMake
+    - name: sdl-template
+      state: ad
+      license: MIT
+      link: https://github.com/zzaccount1/sdl-template
+      description:
+        An basic template for sdl projects. Supports only mingw and linux.
+      languages:
+        - SDL
+        - C++
+        - CMake
     - name: ZEngine
       state: upc
       license: MIT
