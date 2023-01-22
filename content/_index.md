@@ -50,6 +50,4 @@ PS: Stardew Valley best game ever.
 
 # Social media
 
-([Contact etiquette](/contact.html))
-
 {{< mdpartial "socialmedia.html" >}}
