@@ -23,12 +23,16 @@ PS: Stardew Valley best game ever.
             <table>
                 <tbody>
                     <tr>
+                        <th>Primary OS</th>
+                        <td>Windows 10, Ubuntu</td>
+                    </tr>
+                    <tr>
                         <th>Primary editor</th>
-                        <td>VS/VS Code</td>
+                        <td>VS, VS Code</td>
                     </tr>
                     <tr>
                         <th>Primary programming languages</th>
-                        <td>Lua, C#</td>
+                        <td>Lua, C#, C++</td>
                     </tr>
                     <tr>
                         <th>Timezone</th>
