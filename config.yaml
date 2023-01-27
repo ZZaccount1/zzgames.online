@@ -78,6 +78,7 @@ params:
         A small [Lua](https://lua.org/about.html) module for [Love2D](https://love2d.org) that calls functions like [love.load](https://love2d.org/wiki/love.load), [love.update](https://love2d.org/wiki/love.update), [love.draw](https://love2d.org/wiki/love.draw) etc. that are outside main.lua, without needing to require and call the functions by hand for each script.
       languages:
         - Lua
+        - Love2D
     - name: Zalc
       state: ad
       license: MIT
