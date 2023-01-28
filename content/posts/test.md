@@ -4,10 +4,8 @@ tags: ["linux", "pihole"]
 title: "Hey"
 slug: what-i-learned-after-using-pihole-for-a-week
 toc: true
+description: howdy
 ---
-
-* content
-{:toc}
 
 摩天轮动画的实现揭秘
 
