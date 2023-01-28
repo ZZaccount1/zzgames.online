@@ -34,10 +34,6 @@ outputFormats:
     mediatype: application/rss
     baseName: feed
 
-taxonomies:
-  tag: tags
-  series: series
-
 menu:
   main:
   - identifier: Home

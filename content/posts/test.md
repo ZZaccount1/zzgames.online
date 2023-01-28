@@ -1,9 +1,7 @@
 ---
 date: 2023-01-28T00:02:44+02:00
-tags: ["linux", "pihole"]
+tags: ["test"]
 title: "Hey"
-slug: what-i-learned-after-using-pihole-for-a-week
-toc: true
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur a erat nam at lectus urna duis. Aliquet lectus proin nibh nisl condimentum. Arcu non sodales neque sodales ut etiam sit amet nisl. Praesent elementum facilisis leo vel. Posuere lorem ipsum dolor sit amet consectetur adipiscing. Lobortis feugiat vivamus at augue eget arcu. Sed risus ultricies tristique nulla aliquet enim. Molestie a iaculis at erat. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Rhoncus aenean vel elit scelerisque.
 ---
 
