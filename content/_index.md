@@ -36,7 +36,7 @@ PS: Stardew Valley best game ever.
                     </tr>
                     <tr>
                         <th>Timezone</th>
-                        <td>UTC+2 (UTC+3 during winter)</td>
+                        <td>UTC+2 (UTC+3 during summer)</td>
                     </tr>
                 </tbody>
             </table>
