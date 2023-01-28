@@ -52,14 +52,10 @@ menu:
     name: Tags
     url: "/tags.html"
     weight: 3
-  - identifier: TIL
-    name: TIL
-    url: "/til/"
-    weight: 4
   - identifier: Pages
     name: Other pages
     url: "/pages.html"
-    weight: 5
+    weight: 4
 
 
 params:
