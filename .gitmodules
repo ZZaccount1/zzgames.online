@@ -1,4 +1,4 @@
 [submodule "public"]
 	path = public
-	url = git@github.com:LunarWatcher/LunarWatcher.github.io.git
-	branch = master
+	url = https://github.com/zzaccount1/zzaccount1.github.io
+	branch = main
