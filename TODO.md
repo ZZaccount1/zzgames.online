@@ -1,9 +1,4 @@
-- [ ] Before making this repo public clear commit history
-
 - [x] License
 
-- [ ] CSS, make everything dark
-- [ ] Make the blog page, as on my main web page
-- [ ] Update config.yaml (add more features, so for for example other users will just change stuff there instead of searching through files)
-- [ ] Readme
+- [ ] instead of having 2 repositories(source code and deployment, try somehow having just 2 branches and 1 repo)
 - [ ] Add icons(date, tags) for blogs(https://demo.stack.jimmycai.com/)
