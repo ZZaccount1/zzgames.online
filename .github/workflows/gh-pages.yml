@@ -1,35 +1,36 @@
-name: Build and Deploy to GitHub Pages
-
+name: Deploy pages
 on:
   push:
-    branches:
-      - main
-
-env:
-  HUGO_VERSION: 'latest'
-  HUGO_EXTENDED: true
+    branches: [ master ]
+  workflow_dispatch:
 
 jobs:
-  build:
+  hugo:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
-
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: ${{ env.HUGO_VERSION }}
-        extended: ${{ env.HUGO_EXTENDED }}
-
-    - name: Build
-      run: hugo --minify
-
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        publish_dir: ./public
-        branch: gh-pages
-        force_orphan: true
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - uses: actions/setup-python@v2
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Run hugo and commit
+        shell: bash
+        run: |
+          mkdir public 
+          hugo --minify
+          cd public && git config --global init.defaultBranch deployment && git init && git add -A
+          git config --global user.name github-actions[bot]
+          git config --global user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git remote add origin https://github.com/LunarWatcher/lunarwatcher.github.io/
+          git commit -m "Deploy changes for ${GITHUB_SHA}"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: deployment
+          force: true
+          directory: public
