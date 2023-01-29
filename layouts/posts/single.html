@@ -1,14 +1,27 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-<span class="post-meta">Posted on {{ partial "dformat.html" . }}</span>
+<h1>
+
+{{ .Title }}
 <br>
+
+<!--
+{{ if .Params.Description}}
+    <div class="post-meta">{{ .Params.Description }}</div>
+{{end}}
+-->
+
+<span class="post-meta">Posted on {{ partial "dformat.html" . }}&emsp;</span>
+
 {{ if isset .Params "tags" }}
     {{ partial "tags.html" .}}
 {{ end  }}
+
 {{ if isset .Params "series" }}
     {{ partial "series.html" . }}
 {{ end }}
+
+</h1>
 {{ .Content }}
 
 {{ if not .Params.nocomments }}

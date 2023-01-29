@@ -1,3 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Soes on ZZ's blog</title><link>https://zzaccount1.github.io/so.html</link><description>Recent content in Soes on ZZ's blog</description><generator>Hugo -- gohugo.io</generator><language>en-GB</language><lastBuildDate>Sun, 18 Jul 2021 16:29:51 +0200</lastBuildDate><atom:link href="https://zzaccount1.github.io/so/feed.xml" rel="self" type="application/rss+xml"/><item><title>Canonicals</title><link>https://zzaccount1.github.io/so/canonicals.html</link><pubDate>Sun, 18 Jul 2021 16:29:51 +0200</pubDate><guid>https://zzaccount1.github.io/so/canonicals.html</guid><description>A while ago, I started keeping a list of the canonicals for various questions on Stack Overflow, at least where I found suitable ones for problems that show up often.
-This page contains all the various dupes I've found, sorted by categories.
-Android Changing app type (weak): https://stackoverflow.com/q/64005603/6296561 Inter-app Stop other apps: https://stackoverflow.com/q/29887429/6296561 Intra-app Activity-&amp;gt;activity: https://stackoverflow.com/q/2091465/6296561 Fragment-&amp;gt;activity: https://stackoverflow.com/q/9343241/6296561 Activity-&amp;gt;fragment: https://stackoverflow.com/q/12739909/6296561 Fragment-&amp;gt;fragment in different activities: https://stackoverflow.com/q/16036572/6296561 Fragment-&amp;gt;fragment: https://stackoverflow.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Soes on ZZ&#39;s blog</title>
+    <link>https://zzaccount1.github.io/so.html</link>
+    <description>Recent content in Soes on ZZ&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <lastBuildDate>Sun, 18 Jul 2021 16:29:51 +0200</lastBuildDate><atom:link href="https://zzaccount1.github.io/so/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Canonicals</title>
+      <link>https://zzaccount1.github.io/so/canonicals.html</link>
+      <pubDate>Sun, 18 Jul 2021 16:29:51 +0200</pubDate>
+      
+      <guid>https://zzaccount1.github.io/so/canonicals.html</guid>
+      <description>A while ago, I started keeping a list of the canonicals for various questions on Stack Overflow, at least where I found suitable ones for problems that show up often.
+This page contains all the various dupes I&#39;ve found, sorted by categories.
+Android  Changing app type (weak): https://stackoverflow.com/q/64005603/6296561  Inter-app  Stop other apps: https://stackoverflow.com/q/29887429/6296561  Intra-app  Activity-&amp;gt;activity: https://stackoverflow.com/q/2091465/6296561 Fragment-&amp;gt;activity: https://stackoverflow.com/q/9343241/6296561 Activity-&amp;gt;fragment: https://stackoverflow.com/q/12739909/6296561 Fragment-&amp;gt;fragment in different activities: https://stackoverflow.com/q/16036572/6296561 Fragment-&amp;gt;fragment: https://stackoverflow.</description>
+    </item>
+    
+  </channel>
+</rss>
