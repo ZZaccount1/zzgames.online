@@ -11,8 +11,6 @@
     {{ end }}
     {{ .Content }}
 
-    {{ range (.Paginate (.Data.Pages.GroupByDate "2006") 20).PageGroups  }}
-
     <div class="posts">
         {{ range .Pages }}
         <div class="article">
@@ -32,8 +30,6 @@
         </div>
         {{ end }}
     </div>
-    
-    {{ end }}
 
 </section>
 
