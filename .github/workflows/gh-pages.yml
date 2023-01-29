@@ -7,6 +7,7 @@ on:
 
 env:
   HUGO_VERSION: 0.82.0
+  HUGO_EXTENDED: true
 
 jobs:
   build:
@@ -20,6 +21,7 @@ jobs:
       uses: peaceiris/actions-hugo@v2
       with:
         hugo-version: ${{ env.HUGO_VERSION }}
+        hugo-extended: ${{ env.HUGO_EXTENDED }}
 
     - name: Build
       run: hugo --minify
@@ -31,4 +33,3 @@ jobs:
         publish_dir: ./public
         branch: gh-pages
         force_orphan: true
-
