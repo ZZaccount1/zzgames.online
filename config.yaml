@@ -48,10 +48,6 @@ menu:
     name: Tags
     url: "/tags.html"
     weight: 3
-  - identifier: Pages
-    name: Other pages
-    url: "/pages.html"
-    weight: 4
 
 
 params:
