@@ -213,7 +213,7 @@ header nav {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    right: 0;
     overflow-x: hidden;
     transition: 1s;
     padding: 0px;
@@ -232,7 +232,7 @@ header nav {
         right: 20px;
         font-size: 36px;
         margin-left: 50px;
-    }
+    }    
 }
 
 .sidenav-trigger {
