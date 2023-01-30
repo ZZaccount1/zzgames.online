@@ -97,7 +97,6 @@ params:
         - ImGui
         - Premake
   projectstate:
-    # vvvv commitment right here
     ad:
       name: Active
       span: projact
