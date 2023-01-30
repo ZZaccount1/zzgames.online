@@ -13,7 +13,7 @@ Howdy! I'm ZZ, hobbyist game developer from Moldova.
 
 Nowadays I just try different engines, tools, languages until I will find my favorite ones.
 
-PS: Stardew Valley best game ever
+PS: Stardew Valley best game ever :D
 
 {{</ render >}}
     </div>
