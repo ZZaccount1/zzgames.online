@@ -183,7 +183,6 @@ h1, h2 {
     display: block;
 }
 
-// Just use flexbox, dipshit. This isn't the dark ages.
 .right {
     display: block;
     float: right !important;
@@ -204,13 +203,13 @@ header nav {
         line-height: 64px;
     }
 }
-// Why do you do this to me?
+
 .sidenav {
     @extend .primary-theme;
     float: none;
     display: block;
     height: 100% !important;
-    width: 0;
+    width: 0%;
     position: fixed;
     z-index: 1;
     top: 0;
