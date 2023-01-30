@@ -381,7 +381,7 @@ h3, h4, h5, h6 {
 
 div.article {
     padding-bottom: 3px;
-    border-bottom: 1px dotted black;
+    border-bottom: 2px dotted #d1d1d1;
     h1 {
         border-bottom: none !important;
         margin-bottom: 0px !important;
@@ -397,7 +397,7 @@ div.article {
 .target-highlight:target, h1:target, h2:target, h3:target, h4:target, h5:target, h6:target {
     background-color: #ffedd9;
     transition-duration: 2s;
-    &::after {
+    &::after {  
         content: " (URL redirected here)";
         font-size: 10px;
         float: right;

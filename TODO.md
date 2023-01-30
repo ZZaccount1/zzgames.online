@@ -5,6 +5,7 @@
 - [x] Icon
 
 # Soon
+- [ ] Make that the window bar will slide from right, not left
 
 # Later
 - [ ] Add icons(date, tags) for blogs(https://demo.stack.jimmycai.com/)
