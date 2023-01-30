@@ -22,9 +22,10 @@ jobs:
           extended: true
 
       - name: Build
-        run: |
-          hugo --minify
-          echo 'www.zz-games.store' > CNAME
+        run: hugo --minify
+
+      - name: Create CNAME
+        run: echo "www.zz-games.store" > CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
