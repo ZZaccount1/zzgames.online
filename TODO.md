@@ -6,6 +6,7 @@
 - [x] Make that the window bar will slide from right, not left
 
 # Soon
+- [ ] Draft about SDL CheatSheet(eg SDL_SCANCODE_...)(an table with all sdl_scancodes)
 
 # Later
 - [ ] Add icons(date, tags) for blogs(https://demo.stack.jimmycai.com/)
