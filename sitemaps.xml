@@ -3,7 +3,13 @@ $base_url = 'https://www.zzgames.online';
 ?>
 
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">/
+  <url>
+    <loc>https://www.zzgames.online/</loc>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
   <url>
     <loc><?php echo $base_url; ?>/posts</loc>
     <lastmod>2023-02-06T00:00:00+00:00</lastmod>
