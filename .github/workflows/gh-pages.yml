@@ -27,7 +27,7 @@ jobs:
       - name: Copy necessary files
         run: |
           cp CNAME public/
-          cp sitemap.xml public/
+          cp sitemaps.xml public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
