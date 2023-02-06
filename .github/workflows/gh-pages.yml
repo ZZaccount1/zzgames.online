@@ -24,11 +24,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Create CNAME
-        run: echo "www.zzgames.online" > CNAME
-
-      - name: Copy CNAME to public folder
-        run: cp CNAME public/
+      - name: Copy necessary files
+        run: |
+		cp CNAME public/
+		cp sitemap.xml public/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
