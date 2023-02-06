@@ -1,3 +1,4 @@
+<!--
 ---
 title: Privacy policy
 ---
@@ -41,3 +42,5 @@ Utteranc.es uses GitHub to save comments, which means it calls GitHub's API to l
 ## Linked content
 
 I do not take responsibility for external sites that are linked to.
+
+-->
