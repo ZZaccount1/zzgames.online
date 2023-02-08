@@ -11,7 +11,7 @@ description:
 
 Howdy! I'm ZZ, hobbyist game developer from Moldova.
 
-Nowadays I just try different engines, tools, languages until I will find my favorite ones.
+Today I just try different engines, tools, languages until I will find my favorite ones.
 
 PS: Stardew Valley best game ever :D
 
