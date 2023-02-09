@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://zzaccount1.github.io/posts/</loc><lastmod>2023-01-28T00:02:44+02:00</lastmod></url><url><loc>https://zzaccount1.github.io/posts/2023/01/28/hey.html</loc><lastmod>2023-01-28T00:02:44+02:00</lastmod></url><url><loc>https://zzaccount1.github.io/</loc><lastmod>2023-01-28T00:02:44+02:00</lastmod></url><url><loc>https://zzaccount1.github.io/posts/2023/01/28/how-are-you.html</loc><lastmod>2023-01-28T00:02:44+02:00</lastmod></url><url><loc>https://zzaccount1.github.io/tags.html</loc><lastmod>2023-01-28T00:02:44+02:00</lastmod></url><url><loc>https://zzaccount1.github.io/tags/test.html</loc><lastmod>2023-01-28T00:02:44+02:00</lastmod></url><url><loc>https://zzaccount1.github.io/categories.html</loc></url><url><loc>https://zzaccount1.github.io/privacy.html</loc></url></urlset>
+<?php
+$base_url = 'https://www.zzgames.online';
+?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">/
+  <url>
+    <loc>https://www.zzgames.online/</loc>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc><?php echo $base_url; ?>/posts</loc>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc><?php echo $base_url; ?>/tags.html</loc>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc><?php echo $base_url; ?>/posts/2023/01/28/hey.html</loc>
+    <lastmod>2023-02-06T00:00:00+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+</urlset>
+
