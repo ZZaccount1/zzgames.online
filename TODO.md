@@ -4,13 +4,13 @@
 - [x] Remove canonicals.html, tags/blogging.html
 - [x] Icon
 - [x] Make that the window bar will slide from right, not left
+- [x] raylib platformer
 
 # Soon
 - [ ] Add an page named "games" and release there love-flappybird. First make it open-source on github
 - [ ] Draft about SDL CheatSheet(eg SDL_SCANCODE_...)(an table with all sdl_scancodes)
 - [ ] SDL basic platformer from scratch
 - [ ] flappy bird love upcoming
-- [ ] raylib platformer
 
 # Later
 - [ ] Add icons(date, tags) for blogs(https://demo.stack.jimmycai.com/)
