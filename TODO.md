@@ -5,12 +5,12 @@
 - [x] Icon
 - [x] Make that the window bar will slide from right, not left
 - [x] raylib platformer
+- [x] flappy bird love upcoming
 
 # Soon
 - [ ] Add an page named "games" and release there love-flappybird. First make it open-source on github
 - [ ] Draft about SDL CheatSheet(eg SDL_SCANCODE_...)(an table with all sdl_scancodes)
 - [ ] SDL basic platformer from scratch
-- [ ] flappy bird love upcoming
 - [ ] raylib/c++ collision/platformer blog
 
 # Later

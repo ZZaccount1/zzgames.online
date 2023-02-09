@@ -93,6 +93,15 @@ params:
       languages:
         - C++
         - RayLib
+    - name: Flappy Love
+      state: upc
+      license: MIT
+      link: https://github.com/zzaccount1/love-flappylove
+      description:
+        Flappy Bird like game made with love
+      languages:
+        - Lua
+        - Love
     - name: ZEngine
       state: upc
       license: MIT
