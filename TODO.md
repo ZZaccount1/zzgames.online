@@ -11,7 +11,7 @@
 - [ ] Add an page named "games" and release there love-flappybird. First make it open-source on github
 - [ ] Draft about SDL CheatSheet(eg SDL_SCANCODE_...)(an table with all sdl_scancodes)
 - [ ] SDL basic platformer from scratch
-- [ ] raylib/c++ collision/platformer blog
+- [ ] raylib/c++ collision/platformer blog.
 
 # Later
 - [ ] Add icons(date, tags) for blogs(https://demo.stack.jimmycai.com/)
