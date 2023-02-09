@@ -11,6 +11,7 @@
 - [ ] Draft about SDL CheatSheet(eg SDL_SCANCODE_...)(an table with all sdl_scancodes)
 - [ ] SDL basic platformer from scratch
 - [ ] flappy bird love upcoming
+- [ ] raylib/c++ collision/platformer blog
 
 # Later
 - [ ] Add icons(date, tags) for blogs(https://demo.stack.jimmycai.com/)
