@@ -28,6 +28,9 @@ jobs:
         run: |
           cp CNAME public/
           cp sitemaps.xml public/
+          
+      - name: Remove nojekyll
+        run: rm -f .nojekyll
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
