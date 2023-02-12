@@ -26,7 +26,7 @@ jobs:
 
       - name: Copy necessary files
         run: |
-          #cp CNAME public/
+          cp CNAME public/
           cp sitemaps.xml public/
           
       - name: Remove nojekyll
