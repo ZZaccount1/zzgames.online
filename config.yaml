@@ -74,7 +74,7 @@ params:
         - C++
         - Qt
         - CMake
-    - name: sdl template
+    - name: SDL Template
       state: ad
       license: MIT
       link: https://github.com/zzaccount1/sdl-template
@@ -84,7 +84,7 @@ params:
         - SDL
         - C++
         - CMake
-    - name: raylib platformer
+    - name: RayLib Platformer
       state: ad
       license: MIT
       link: https://github.com/zzaccount1/raylib-platformer
