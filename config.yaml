@@ -94,7 +94,7 @@ params:
         - C++
         - RayLib
     - name: Flappy Love
-      state: ud
+      state: ad
       license: MIT
       link: https://github.com/zzaccount1/love-flappylove
       description:
