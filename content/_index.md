@@ -24,7 +24,7 @@ PS: Stardew Valley best game ever :D
                 <tbody>
                     <tr>
                         <th>Primary OS</th>
-                        <td>Windows 10, Ubuntu</td>
+                        <td>Windows 10, Ubuntu/Arch</td>
                     </tr>
                     <tr>
                         <th>Primary editors</th>
