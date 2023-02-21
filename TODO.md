@@ -9,6 +9,7 @@
 
 # Soon
 - [ ] Add an page named "games" and release there love-flappybird. First make it open-source on github
+- [ ] ChatGPT on the main page. Write a list of questions for chatgpt and on the main page/or an alt page, will be picked a random question and the reponse of chatgpt will be shown 
 - [ ] Draft about SDL CheatSheet(eg SDL_SCANCODE_...)(an table with all sdl_scancodes)
 - [ ] SDL basic platformer from scratch
 - [ ] raylib/c++ collision/platformer blog.
