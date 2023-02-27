@@ -74,6 +74,16 @@ params:
         - C++
         - Qt
         - CMake
+    - name: Rail Rush
+      state: ad
+      license: WTFPL
+      link: https://github.com/zzaccount1/rail-rush
+      description:
+        Small game made for love2d jam 2023.
+      languages:
+        - Love
+        - Lua
+
     - name: SDL Template
       state: ad
       license: MIT
