@@ -64,8 +64,18 @@ params:
       languages:
         - Lua
         - Love2D
+    - name: SDL Template
+      state: de
+      license: MIT
+      link: https://github.com/zzaccount1/sdl-template
+      description:
+        An basic template for sdl projects. Supports only mingw and linux.
+      languages:
+        - SDL
+        - C++
+        - CMake
     - name: Zalc
-      state: ad
+      state: ab
       license: MIT
       link: https://github.com/zzaccount1/zalc
       description:
@@ -75,7 +85,7 @@ params:
         - Qt
         - CMake
     - name: Rail Rush
-      state: ad
+      state: ab
       license: WTFPL
       link: https://github.com/zzaccount1/rail-rush
       description:
@@ -83,19 +93,8 @@ params:
       languages:
         - Love
         - Lua
-
-    - name: SDL Template
-      state: ad
-      license: MIT
-      link: https://github.com/zzaccount1/sdl-template
-      description:
-        An basic template for sdl projects. Supports only mingw and linux.
-      languages:
-        - SDL
-        - C++
-        - CMake
     - name: RayLib Platformer
-      state: ad
+      state: ab
       license: MIT
       link: https://github.com/zzaccount1/raylib-platformer
       description:
@@ -104,7 +103,7 @@ params:
         - C++
         - RayLib
     - name: Flappy Love
-      state: ad
+      state: ab
       license: MIT
       link: https://github.com/zzaccount1/love-flappylove
       description:
