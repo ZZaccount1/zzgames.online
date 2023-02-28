@@ -64,16 +64,24 @@ params:
       languages:
         - Lua
         - Love2D
-    - name: SDL Template
-      state: de
-      license: MIT
-      link: https://github.com/zzaccount1/sdl-template
+    - name: Rail Rush
+      state: ab
+      license: WTFPL
+      link: https://github.com/zzaccount1/rail-rush
       description:
-        An basic template for sdl projects. Supports only mingw and linux.
+        Small game made for love2d jam 2023.
       languages:
-        - SDL
-        - C++
-        - CMake
+        - Love
+        - Lua
+    - name: Flappy Love
+      state: ab
+      license: MIT
+      link: https://github.com/zzaccount1/love-flappylove
+      description:
+        Flappy Bird like game made with love
+      languages:
+        - Lua
+        - Love
     - name: Zalc
       state: ab
       license: MIT
@@ -84,15 +92,6 @@ params:
         - C++
         - Qt
         - CMake
-    - name: Rail Rush
-      state: ab
-      license: WTFPL
-      link: https://github.com/zzaccount1/rail-rush
-      description:
-        Small game made for love2d jam 2023.
-      languages:
-        - Love
-        - Lua
     - name: RayLib Platformer
       state: ab
       license: MIT
@@ -102,15 +101,16 @@ params:
       languages:
         - C++
         - RayLib
-    - name: Flappy Love
-      state: ab
+    - name: SDL Template
+      state: de
       license: MIT
-      link: https://github.com/zzaccount1/love-flappylove
+      link: https://github.com/zzaccount1/sdl-template
       description:
-        Flappy Bird like game made with love
+        An basic template for sdl projects. Supports only mingw and linux.
       languages:
-        - Lua
-        - Love
+        - SDL
+        - C++
+        - CMake
   projectstate:
     ad:
       name: Active
