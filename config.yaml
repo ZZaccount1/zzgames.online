@@ -65,7 +65,7 @@ params:
         - Lua
         - Love2D
     - name: Rail Rush
-      state: ab
+      state: ad
       license: WTFPL
       link: https://github.com/zzaccount1/rail-rush
       description:
